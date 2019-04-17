@@ -12,7 +12,7 @@ class App extends Component {
       <Router>
         <div className='app'>
           <Route exact path="/" component={AlbumList} />
-          <Route path ="Album/:id" component ={AlbumView} />
+          <Route path ="/Album/:id" component ={AlbumView} />
           <Route path= "/image/:id" component={ImageView} />
         </div>
       </Router>

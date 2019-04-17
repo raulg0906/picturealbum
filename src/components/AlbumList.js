@@ -12,7 +12,7 @@ class AlbumList extends Component {
         axios.get('http://localhost:3001/Albums').then(resp=>{
         const items = resp.data.map((item) => {
             return{
-                path:'/Albums/' + item.id,
+                path:'/Album/' + item.id,
                 url: item.pic,
                 name: item.name,
                 id: item.id

@@ -63,3 +63,28 @@ h1{
   width: 100%;
   height: 150px;
 }
+
+.sidecontainer{
+  display:flex;
+
+}
+
+.sidecontainer nav{
+  border-right: 1px solid black;
+  width: 140px;
+}
+
+.sidecontainer nav ul{
+  padding:0;
+  list-style: none;
+}
+
+.sidecontainer nav li{
+  padding:10px 0
+}
+
+.sidecontainer nav ul a{
+  color: black;
+  font-size: 12px;
+  padding-left: 30px;
+}
